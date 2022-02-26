@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background: #eeeeef;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.ytimg.com/vi/yNN7nTfPryU/maxresdefault.jpg");
+}
+section {
+    margin-top: 32px;
+    /* background: #fff; */
+}
+h1{
+    font-weight: 600;
+    font-family: 'Love Light', cursive;
+}
+.chat_header {
+    width: 35vw;
+    display: flex;
+    box-shadow: 10px 10px 10px -6px;
+    align-items: center;
+    background-color: #ffffff;
+    border: solid 2px;
+    border-radius: 8px;
+}
+.msg {
+    width: 35vw;
+    height: 69vh;
+    box-shadow: 9px 10px 10px 0px;
+    border: solid 2px;
+}
+.logo{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.msg {
+    margin-top: 4px;
+    width: 35vw;
+
+    /* background-color: #ffff; */
+    background-image: url("https://qph.fs.quoracdn.net/main-qimg-8b585fb4a5c9fedbb899cfb0cf0331a7");
+    border-radius: 9px;
+    height: 69vh;
+    overflow-y: auto;
+}
+.outgoing_msg {
+    float: right;
+    width: auto;
+    margin-bottom: 12px;
+    height: 5vw;
+    clear: both;
+    border-radius: 7px;
+    width: auto;
+    height: auto;
+    /* margin-right: 17px; */
+    background: #e7e6ff;
+}
+.incoming_msg {
+    float: left;
+    border-radius: 7px;
+    clear: both;
+    width: auto;
+    height: auto;
+    background: #e7e6ff;
+}
+input[type="text"] {
+    margin-top: 10px;
+    width: 26vw;
+    border: solid 2px;
+    border-radius: 6px;
+    height: 7vh;
+}
+.outgoing_msg {
+    float: right;
+    border-radius: 7px;
+    margin-right: 17px;
+    background: #e7e6ff;
+}
+.msg{
+    /* background-image: url("https://qph.fs.quoracdn.net/main-qimg-8b585fb4a5c9fedbb899cfb0cf0331a7");
+    color:cyan;
+    font-family: 'Love Light', cursive;
+    margin: ; */
+
+}
